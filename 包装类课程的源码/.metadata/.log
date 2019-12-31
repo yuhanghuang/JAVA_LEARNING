@@ -1,0 +1,37 @@
+!SESSION 2019-12-31 14:06:36.479 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\Users\lenovo\Desktop\JAVA\包装类课程的源码 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-31 14:06:49.521
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-12-31 14:06:54.994
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $. ; version: 2.0.5.v20170613-1207
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:224)
+	at com.google.gson.Gson.fromJson(Gson.java:887)
+	at com.google.gson.Gson.fromJson(Gson.java:852)
+	at com.google.gson.Gson.fromJson(Gson.java:801)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:91)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:213)
+	... 9 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-31 14:08:36.213
+!MESSAGE Exception caught during execution of command '[bash, --login, -c, which git]' in 'C:\Users\lenovo', return code '1', error message 'which: no git in (/usr/local/bin:/usr/bin:/cygdrive/d/often-software/Java/jdk1.8.0_144/bin/server:/cygdrive/d/often-software/Java/jdk1.8.0_144/bin:/cygdrive/d/often-software/Java/jdk1.8.0_144/lib/amd64:/cygdrive/c/ActiveTcl/bin:/cygdrive/d/often-software:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files/IDM Computer Solutions/UltraEdit:/cygdrive/d/often-software/UltraEdit:/cygdrive/d/often-software/Java/jre1.8.0_144/bin:/cygdrive/d/often-software/Java/jre1.8.0_144/jre/bin: .:/cygdrive/d/often-software/Java/jre1.8.0_144/lib:/cygdrive/d/often-software/Java/jre1.8.0_144/lib/dt.jar:/cygdrive/d/often-software/Java/jre1.8.0_144/lib/tools.jar:/cygdrive/c/Program Files/Microsoft VS Code/bin:/usr/bin:/cygdrive/d/masm32:/cygdrive/c/texlive/2019/bin/win32:/cygdrive/c/Ruby26-x64/bin:/cygdrive/d/often-software/Ruby26-x64/Ruby26-x64/bin:/cygdrive/c/Users/lenovo/Anaconda3:/cygdrive/c/Users/lenovo/Anaconda3/Library/mingw-w64/bin:/cygdrive/c/Users/lenovo/Anaconda3/Library/usr/bin:/cygdrive/c/Users/lenovo/Anaconda3/Library/bin:/cygdrive/c/Users/lenovo/Anaconda3/Scripts:/cygdrive/d/often-software/python/python3.6/Scripts:/cygdrive/d/often-software/python/python3.6:/cygdrive/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/d/often-software/xtex/miktex/bin/x64:/cygdrive/d/often-software/baiduyun/bandzip:/cygdrive/c/Users/lenovo/AppData/Local/GitHubDesktop/bin:/cygdrive/c/Users/lenovo/AppData/Local/atom/bin:/cygdrive/c/AppServ/Apache24/bin:/cygdrive/c/AppServ/php5:/cygdrive/c/AppServ/MySQL/bin:/cygdrive/f/IDMä¸è½½/eclipse/eclipse-jee-oxygen-R-win32-x86_64/eclipse-jee-oxygen-R-win32-x86_64/eclipse)
+'
