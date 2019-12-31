@@ -1,0 +1,1 @@
+INDEX VERSION 1.130+E:\download\ruisi\Android零基础入门\步骤三 Java常用工具\一 Java异常\异常课程的源码\ExceptionProj\.metadata\.plugins\org.eclipse.jdt.core
